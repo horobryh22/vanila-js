@@ -5,7 +5,7 @@ let b: number;
 let c: number;
 
 beforeEach(() => {
-    a = 1;
+    a = 10;
     b = 2;
     c = 3;
 })
@@ -19,7 +19,7 @@ test('sum should be correct', () => {
     const result2 = sum(b, c);
 
     // expect result  - результат, который мы ожидаем получить
-    expect(result1).toBe(3);
+    expect(result1).toBe(12);
     expect(result2).toBe(5);
 
 })
@@ -33,7 +33,7 @@ test('multiply should be correct', () => {
     const result2 = multiply(b, c);
 
     // expect result  - результат, который мы ожидаем получить
-    expect(result1).toBe(2);
+    expect(result1).toBe(20);
     expect(result2).toBe(6);
 
 })
