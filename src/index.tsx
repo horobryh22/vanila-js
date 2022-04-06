@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './04-filter/04-filter';
+import './05-map/05-01';
 
 ReactDOM.render(
   <React.StrictMode>
