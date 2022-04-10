@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './05-map/05-01';
+import {User} from './06-callback/06-callback';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <User/>
   </React.StrictMode>,
   document.getElementById('root')
 );
