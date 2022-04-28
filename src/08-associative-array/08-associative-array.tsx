@@ -23,4 +23,4 @@ const users: UsersType = {
 
 users[newObj.id] = newObj;
 
-console.log(users)
+console.log(users);
